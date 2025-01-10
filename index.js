@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Your Vite frontend URL
+    origin: ['https://doctor-fe-sigma.vercel.app', 'http://localhost:5173'],
     credentials: true
   }));
 

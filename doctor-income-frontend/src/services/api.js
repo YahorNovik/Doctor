@@ -3,7 +3,7 @@ import axios from 'axios';
 import axiosRetry from 'axios-retry';
 
 const api = axios.create({
- baseURL: 'http://localhost:3000/api'
+ baseURL: 'https://doctor-backend-yw87.onrender.com/api'
 });
 
 axiosRetry(api, { 
