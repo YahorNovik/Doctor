@@ -124,13 +124,13 @@ export default function TransactionDetail() {
            <>
              <button 
                onClick={handleEdit}
-               className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+               className="text-gray-600 hover:text-gray-800"
              >
                Edit
              </button>
              <button 
                onClick={handleDelete}
-               className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600"
+               className="text-red-600 hover:text-red-800"
              >
                Delete
              </button>
